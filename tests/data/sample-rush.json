@@ -1,0 +1,97 @@
+[
+  {
+    "type": "play",
+    "id": "5e1e585e-3672-4aa9-ba1e-f74638772f09",
+    "sequence": 146.0,
+    "reference": "146",
+    "clock": "13:15",
+    "home_points": 0,
+    "away_points": 0,
+    "play_type": "rush",
+    "play_clock": 15,
+    "wall_clock": "2015-02-01T23:33:42+00:00",
+    "start_situation": {
+      "clock": "13:15",
+      "down": 1,
+      "yfd": 10,
+      "possession": {
+        "name": "Patriots",
+        "market": "New England",
+        "alias": "NE",
+        "reference": "4925",
+        "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+      },
+      "location": {
+        "name": "Patriots",
+        "market": "New England",
+        "alias": "NE",
+        "reference": "4925",
+        "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+        "yardline": 31
+      }
+    },
+    "end_situation": {
+      "clock": "12:34",
+      "down": 2,
+      "yfd": 8,
+      "possession": {
+        "name": "Patriots",
+        "market": "New England",
+        "alias": "NE",
+        "reference": "4925",
+        "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+      },
+      "location": {
+        "name": "Patriots",
+        "market": "New England",
+        "alias": "NE",
+        "reference": "4925",
+        "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+        "yardline": 33
+      }
+    },
+    "description": "(13:15) 29-L.Blount up the middle to NE 33 for 2 yards (54-B.Wagner).",
+    "alt_description": "(13:15) L.Blount up the middle to NE 33 for 2 yards (B.Wagner).",
+    "statistics": [
+      {
+        "stat_type": "rush",
+        "attempt": 1,
+        "yards": 2,
+        "inside_20": 0,
+        "goaltogo": 0,
+        "team": {
+          "name": "Patriots",
+          "market": "New England",
+          "alias": "NE",
+          "reference": "4925",
+          "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+        },
+        "player": {
+          "name": "LeGarrette Blount",
+          "jersey": "29",
+          "reference": "00-0027325",
+          "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+          "position": "RB"
+        }
+      },
+      {
+        "stat_type": "defense",
+        "tackle": 1,
+        "team": {
+          "name": "Seahawks",
+          "market": "Seattle",
+          "alias": "SEA",
+          "reference": "4934",
+          "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+        },
+        "player": {
+          "name": "Bobby Wagner",
+          "jersey": "54",
+          "reference": "00-0029255",
+          "id": "706bc0ab-7200-47e9-9b09-726110eb83dc",
+          "position": "LB"
+        }
+      }
+    ]
+  }
+]

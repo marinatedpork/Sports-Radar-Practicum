@@ -1,0 +1,3471 @@
+{
+  "id": "b7aeb58f-7987-4202-bc41-3ad9a5b83fa4",
+  "status": "closed",
+  "reference": "56502",
+  "number": 267,
+  "scheduled": "2015-02-01T23:30:53+00:00",
+  "weather": "Sunny Temp: 66° F, Humidity: 49%, Wind: South 6 mph",
+  "attendance": 70288,
+  "utc_offset": -7,
+  "clock": "00:00",
+  "quarter": 4,
+  "summary": {
+    "season": {
+      "id": "24f2211a-4247-4f59-95aa-8301e156b3bf",
+      "year": 2014,
+      "type": "PST",
+      "name": "PST"
+    },
+    "week": {
+      "id": "96141e43-94af-43f0-823d-af6d09c07211",
+      "sequence": 4,
+      "title": "4"
+    },
+    "venue": {
+      "id": "f8e4d2ab-53f9-4e9f-8c4a-9bc278094a84",
+      "name": "University of Phoenix Stadium",
+      "city": "Glendale",
+      "state": "AZ",
+      "country": "USA",
+      "zip": "85305",
+      "address": "One Cardinals Drive",
+      "capacity": 63400,
+      "surface": "turf",
+      "roof_type": "retractable_dome"
+    },
+    "home": {
+      "name": "Seahawks",
+      "market": "Seattle",
+      "alias": "SEA",
+      "reference": "4934",
+      "used_timeouts": 3,
+      "remaining_timeouts": 0,
+      "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+      "points": 24
+    },
+    "away": {
+      "name": "Patriots",
+      "market": "New England",
+      "alias": "NE",
+      "reference": "4925",
+      "used_timeouts": 2,
+      "remaining_timeouts": 1,
+      "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+      "points": 28
+    }
+  },
+  "periods": [
+    {
+      "period_type": "quarter",
+      "id": "cc3a9d7b-b6b4-47a1-ae2d-e4e2a8292dcd",
+      "number": 1,
+      "sequence": 1,
+      "scoring": {
+        "home": {
+          "name": "Seahawks",
+          "market": "Seattle",
+          "alias": "SEA",
+          "reference": "4934",
+          "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+          "points": 0
+        },
+        "away": {
+          "name": "Patriots",
+          "market": "New England",
+          "alias": "NE",
+          "reference": "4925",
+          "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+          "points": 0
+        }
+      },
+      "pbp": [
+        {
+          "type": "event",
+          "id": "6e68a786-26cd-4fde-bc09-10abf8472a48",
+          "sequence": 1.0,
+          "reference": "1",
+          "clock": "00:00",
+          "event_type": "setup",
+          "description": "GAME",
+          "alt_description": "GAME"
+        },
+        {
+          "type": "drive",
+          "id": "1c81a27f-9105-4864-9522-72fe796df051",
+          "sequence": 1,
+          "start_reason": "Kickoff",
+          "end_reason": "Punt",
+          "play_count": 6,
+          "duration": "3:26",
+          "first_downs": 1,
+          "gain": 17,
+          "penalty_yards": 0,
+          "events": [
+            {
+              "type": "play",
+              "id": "dc386168-f3d3-496f-80ff-371ddf625317",
+              "sequence": 37.0,
+              "reference": "37",
+              "clock": "15:00",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "kickoff",
+              "wall_clock": "2015-02-01T23:30:53+00:00",
+              "start_situation": {
+                "clock": "15:00",
+                "down": 0,
+                "yfd": 0,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 35
+                }
+              },
+              "end_situation": {
+                "clock": "14:57",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 18
+                }
+              },
+              "description": "4-S.Hauschka kicks 70 yards from SEA 35 to NE -5. 80-D.Amendola to NE 18 for 23 yards (35-D.Shead).",
+              "alt_description": "S.Hauschka kicks 70 yards from SEA 35 to NE -5. D.Amendola to NE 18 for 23 yards (D.Shead).",
+              "statistics": [
+                {
+                  "stat_type": "kick",
+                  "attempt": 1,
+                  "yards": 70,
+                  "inside_20": 1,
+                  "endzone": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Steven Hauschka",
+                    "jersey": "04",
+                    "reference": "00-0025944",
+                    "id": "40cda44b-2ee3-4ad1-834e-995e30db84d4",
+                    "position": "K"
+                  }
+                },
+                {
+                  "stat_type": "return",
+                  "return": 1,
+                  "yards": 23,
+                  "category": "kick_return",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Danny Amendola",
+                    "jersey": "80",
+                    "reference": "00-0026035",
+                    "id": "973bfe3c-6d0d-4130-a79c-f860650b1da6",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "DeShawn Shead",
+                    "jersey": "35",
+                    "reference": "00-0029191",
+                    "id": "588022c3-f9c6-4f30-b4ea-a264f99fc997",
+                    "position": "CB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "c87d6c2f-93ff-418e-986e-406e26a3e5cd",
+              "sequence": 59.0,
+              "reference": "59",
+              "clock": "14:57",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:31:46+00:00",
+              "start_situation": {
+                "clock": "14:57",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 18
+                }
+              },
+              "end_situation": {
+                "clock": "14:15",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 20
+                }
+              },
+              "description": "(14:57) (Shotgun) 12-T.Brady pass short right to 87-R.Gronkowski to NE 20 for 2 yards (51-B.Irvin).",
+              "alt_description": "(14:57) (Shotgun) T.Brady pass short right to R.Gronkowski to NE 20 for 2 yards (B.Irvin).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 2,
+                  "att_yards": -2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 2,
+                  "yards_after_catch": 4,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Rob Gronkowski",
+                    "jersey": "87",
+                    "reference": "00-0027656",
+                    "id": "2142a164-48ad-47d6-bb27-0bc58c6b2e62",
+                    "position": "TE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Bruce Irvin",
+                    "jersey": "51",
+                    "reference": "00-0029193",
+                    "id": "6fc3f73e-9c19-41cf-aa95-df4d83e29e9e",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "cee6146d-5c26-446a-9b96-38d7bf5ef1b2",
+              "sequence": 83.0,
+              "reference": "83",
+              "clock": "14:15",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:32:28+00:00",
+              "start_situation": {
+                "clock": "14:15",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 20
+                }
+              },
+              "end_situation": {
+                "clock": "13:47",
+                "down": 3,
+                "yfd": 2,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 26
+                }
+              },
+              "description": "(14:15) 12-T.Brady pass short left to 80-D.Amendola pushed ob at NE 26 for 6 yards (41-B.Maxwell).",
+              "alt_description": "(14:15) T.Brady pass short left to D.Amendola pushed ob at NE 26 for 6 yards (B.Maxwell).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 6,
+                  "att_yards": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 6,
+                  "yards_after_catch": 5,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Danny Amendola",
+                    "jersey": "80",
+                    "reference": "00-0026035",
+                    "id": "973bfe3c-6d0d-4130-a79c-f860650b1da6",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Byron Maxwell",
+                    "jersey": "41",
+                    "reference": "00-0028111",
+                    "id": "fc309bb0-d8f9-49a8-b2d3-5c6eea4dec24",
+                    "position": "CB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "64a7c25c-4f36-4676-9e49-81670fe80bc1",
+              "sequence": 122.0,
+              "reference": "122",
+              "clock": "13:47",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "wall_clock": "2015-02-01T23:33:11+00:00",
+              "start_situation": {
+                "clock": "13:47",
+                "down": 3,
+                "yfd": 2,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 26
+                }
+              },
+              "end_situation": {
+                "clock": "13:15",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 31
+                }
+              },
+              "description": "(13:47) (Shotgun) 12-T.Brady pass short left to 34-S.Vereen to NE 31 for 5 yards (50-K.Wright) [72-M.Bennett].",
+              "alt_description": "(13:47) (Shotgun) T.Brady pass short left to S.Vereen to NE 31 for 5 yards (K.Wright) [M.Bennett].",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 5,
+                  "att_yards": 3,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "firstdown": 1,
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 5,
+                  "yards_after_catch": 2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Shane Vereen",
+                    "jersey": "34",
+                    "reference": "00-0027994",
+                    "id": "600ae879-d95a-4ac4-ae4e-72c05a05f1ad",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "K.J. Wright",
+                    "jersey": "50",
+                    "reference": "00-0028037",
+                    "id": "93ff0e6f-fee3-41d1-a913-6111cd9ebef1",
+                    "position": "LB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "qb_hit": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Michael Bennett",
+                    "jersey": "72",
+                    "reference": "00-0026618",
+                    "id": "485369eb-3586-4aa2-9628-77d954f23da3",
+                    "position": "DE"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "pass",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "5e1e585e-3672-4aa9-ba1e-f74638772f09",
+              "sequence": 146.0,
+              "reference": "146",
+              "clock": "13:15",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 15,
+              "wall_clock": "2015-02-01T23:33:42+00:00",
+              "start_situation": {
+                "clock": "13:15",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 31
+                }
+              },
+              "end_situation": {
+                "clock": "12:34",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 33
+                }
+              },
+              "description": "(13:15) 29-L.Blount up the middle to NE 33 for 2 yards (54-B.Wagner).",
+              "alt_description": "(13:15) L.Blount up the middle to NE 33 for 2 yards (B.Wagner).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Bobby Wagner",
+                    "jersey": "54",
+                    "reference": "00-0029255",
+                    "id": "706bc0ab-7200-47e9-9b09-726110eb83dc",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "22b7b129-c84a-457e-b7d7-59420e707560",
+              "sequence": 167.0,
+              "reference": "167",
+              "clock": "12:34",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:34:23+00:00",
+              "start_situation": {
+                "clock": "12:34",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 33
+                }
+              },
+              "end_situation": {
+                "clock": "11:49",
+                "down": 3,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "description": "(12:34) 29-L.Blount right tackle to NE 35 for 2 yards (50-K.Wright, 56-C.Avril).",
+              "alt_description": "(12:34) L.Blount right tackle to NE 35 for 2 yards (K.Wright, C.Avril).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Cliff Avril",
+                    "jersey": "56",
+                    "reference": "00-0026232",
+                    "id": "d631b4a7-1ce6-4355-9cce-e61cb175c78c",
+                    "position": "DE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "K.J. Wright",
+                    "jersey": "50",
+                    "reference": "00-0028037",
+                    "id": "93ff0e6f-fee3-41d1-a913-6111cd9ebef1",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "7d80b7d9-4be0-4720-a726-457dea827338",
+              "sequence": 188.0,
+              "reference": "188",
+              "clock": "11:49",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "wall_clock": "2015-02-01T23:35:09+00:00",
+              "start_situation": {
+                "clock": "11:49",
+                "down": 3,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "end_situation": {
+                "clock": "11:44",
+                "down": 4,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "description": "(11:49) (Shotgun) 12-T.Brady pass incomplete short left to 34-S.Vereen.",
+              "alt_description": "(11:49) (Shotgun) T.Brady pass incomplete short left to S.Vereen.",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 0,
+                  "att_yards": 3,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Shane Vereen",
+                    "jersey": "34",
+                    "reference": "00-0027994",
+                    "id": "600ae879-d95a-4ac4-ae4e-72c05a05f1ad",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "c05e0e00-2e6a-4c4a-8e63-d6e69f87f553",
+              "sequence": 210.0,
+              "reference": "210",
+              "clock": "11:44",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "punt",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:35:45+00:00",
+              "start_situation": {
+                "clock": "11:44",
+                "down": 4,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "end_situation": {
+                "clock": "11:34",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 16
+                }
+              },
+              "description": "(11:44) 6-R.Allen punts 49 yards to SEA 16, Center-48-D.Aiken. 19-B.Walters to SEA 16 for no gain (25-K.Arrington). Penalty on SEA-23-J.Johnson, Running Into the Kicker, declined.",
+              "alt_description": "(11:44) R.Allen punts 49 yards to SEA 16, Center-D.Aiken. B.Walters to SEA 16 for no gain (K.Arrington). Penalty on SEA-J.Johnson, Running Into the Kicker, declined.",
+              "statistics": [
+                {
+                  "stat_type": "punt",
+                  "attempt": 1,
+                  "yards": 49,
+                  "inside_20": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Ryan Allen",
+                    "jersey": "06",
+                    "reference": "00-0029984",
+                    "id": "b1a2aa6e-7104-4e35-910d-fbefddd74a78",
+                    "position": "P"
+                  }
+                },
+                {
+                  "stat_type": "return",
+                  "return": 1,
+                  "yards": 0,
+                  "category": "punt_return",
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Bryan Walters",
+                    "jersey": "19",
+                    "reference": "00-0027595",
+                    "id": "ec56adb7-2414-4ca4-823e-c990fd083a77",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Kyle Arrington",
+                    "jersey": "25",
+                    "reference": "00-0026071",
+                    "id": "688fbca7-40bf-496f-9b8c-eaba35fd6939",
+                    "position": "DB"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "id": "77a80443-ff10-464b-8703-cd4ee9b608de",
+          "sequence": 247.0,
+          "reference": "247",
+          "clock": "11:34",
+          "event_type": "timeout",
+          "wall_clock": "2015-02-01T23:37:27+00:00",
+          "description": "Timeout at 11:34.",
+          "alt_description": "Timeout at 11:34."
+        },
+        {
+          "type": "drive",
+          "id": "5a1b9b60-1e9b-458c-bc1a-d60941e3c512",
+          "sequence": 2,
+          "start_reason": "Punt",
+          "end_reason": "Punt",
+          "play_count": 3,
+          "duration": "2:14",
+          "first_downs": 0,
+          "gain": 8,
+          "penalty_yards": 0,
+          "events": [
+            {
+              "type": "play",
+              "id": "15792168-c656-4efb-8473-41ba3f480740",
+              "sequence": 269.0,
+              "reference": "269",
+              "clock": "11:34",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 17,
+              "wall_clock": "2015-02-01T23:39:25+00:00",
+              "start_situation": {
+                "clock": "11:34",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 16
+                }
+              },
+              "end_situation": {
+                "clock": "10:52",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 19
+                }
+              },
+              "description": "(11:34) 24-M.Lynch right end to SEA 19 for 3 yards (96-S.Siliga; 54-D.Hightower).",
+              "alt_description": "(11:34) M.Lynch right end to SEA 19 for 3 yards (S.Siliga; D.Hightower).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 3,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Marshawn Lynch",
+                    "jersey": "24",
+                    "reference": "00-0025399",
+                    "id": "82bce0be-9a87-4b6d-a85b-623bf8d1674e",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Sealver Siliga",
+                    "jersey": "96",
+                    "reference": "00-0028256",
+                    "id": "690fbf24-aab0-40cf-aeb4-7e24d90108a1",
+                    "position": "DL"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Dont'a Hightower",
+                    "jersey": "54",
+                    "reference": "00-0029669",
+                    "id": "e7a18744-0608-4118-888f-f51de5645ce9",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "8b39dc8f-9ee7-44ea-9f0c-866b811a31b9",
+              "sequence": 290.0,
+              "reference": "290",
+              "clock": "10:52",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:40:08+00:00",
+              "start_situation": {
+                "clock": "10:52",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 19
+                }
+              },
+              "end_situation": {
+                "clock": "10:14",
+                "down": 3,
+                "yfd": 2,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "description": "(10:52) (Shotgun) 24-M.Lynch up the middle to SEA 24 for 5 yards (54-D.Hightower; 50-R.Ninkovich).",
+              "alt_description": "(10:52) (Shotgun) M.Lynch up the middle to SEA 24 for 5 yards (D.Hightower; R.Ninkovich).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 5,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Marshawn Lynch",
+                    "jersey": "24",
+                    "reference": "00-0025399",
+                    "id": "82bce0be-9a87-4b6d-a85b-623bf8d1674e",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Dont'a Hightower",
+                    "jersey": "54",
+                    "reference": "00-0029669",
+                    "id": "e7a18744-0608-4118-888f-f51de5645ce9",
+                    "position": "LB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Rob Ninkovich",
+                    "jersey": "50",
+                    "reference": "00-0024349",
+                    "id": "f3e2f6dd-53c4-4d8c-81d7-9e9d3c024e0c",
+                    "position": "DE"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "a0737acf-927e-4d77-8e84-a4e9ae86ac77",
+              "sequence": 311.0,
+              "reference": "311",
+              "clock": "10:14",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:40:46+00:00",
+              "start_situation": {
+                "clock": "10:14",
+                "down": 3,
+                "yfd": 2,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "end_situation": {
+                "clock": "9:30",
+                "down": 4,
+                "yfd": 2,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "description": "(10:14) (Shotgun) 24-M.Lynch up the middle to SEA 24 for no gain (91-J.Collins).",
+              "alt_description": "(10:14) (Shotgun) M.Lynch up the middle to SEA 24 for no gain (J.Collins).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 0,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Marshawn Lynch",
+                    "jersey": "24",
+                    "reference": "00-0025399",
+                    "id": "82bce0be-9a87-4b6d-a85b-623bf8d1674e",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Jamie Collins",
+                    "jersey": "91",
+                    "reference": "00-0030421",
+                    "id": "ca760cb5-83dd-4415-acc8-ef8b508ba976",
+                    "position": "LB"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "df96b743-5256-4182-9e79-b12ddeed8336",
+              "sequence": 332.0,
+              "reference": "332",
+              "clock": "9:30",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "punt",
+              "wall_clock": "2015-02-01T23:41:30+00:00",
+              "start_situation": {
+                "clock": "9:30",
+                "down": 4,
+                "yfd": 2,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "end_situation": {
+                "clock": "9:20",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 32
+                }
+              },
+              "description": "(9:30) 9-J.Ryan punts 44 yards to NE 32, Center-49-C.Gresham, fair catch by 11-J.Edelman.",
+              "alt_description": "(9:30) J.Ryan punts 44 yards to NE 32, Center-C.Gresham, fair catch by J.Edelman.",
+              "statistics": [
+                {
+                  "stat_type": "punt",
+                  "attempt": 1,
+                  "yards": 44,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Jon Ryan",
+                    "jersey": "09",
+                    "reference": "00-0023742",
+                    "id": "f6b48c8b-66ac-47a3-aafc-5addce6a6d82",
+                    "position": "P"
+                  }
+                },
+                {
+                  "stat_type": "return",
+                  "faircatch": 1,
+                  "category": "punt_return",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Julian Edelman",
+                    "jersey": "11",
+                    "reference": "00-0027150",
+                    "id": "2bb70d56-a79a-4fa1-ae37-99858a3ffd55",
+                    "position": "WR"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "id": "69ecb77e-0359-4e99-aecb-95c18ade4975",
+          "sequence": 352.0,
+          "reference": "352",
+          "clock": "9:20",
+          "event_type": "timeout",
+          "wall_clock": "2015-02-01T23:43:19+00:00",
+          "description": "Timeout at 09:20.",
+          "alt_description": "Timeout at 09:20."
+        },
+        {
+          "type": "drive",
+          "id": "9325f3c1-b58e-4fbb-b6ce-abf5c24b063a",
+          "sequence": 3,
+          "start_reason": "Punt",
+          "end_reason": "Interception",
+          "play_count": 13,
+          "duration": "7:41",
+          "first_downs": 4,
+          "gain": 58,
+          "penalty_yards": 0,
+          "inside_20": true,
+          "events": [
+            {
+              "type": "play",
+              "id": "bc581474-dad2-4d8d-b138-f32b098f2ef3",
+              "sequence": 369.0,
+              "reference": "369",
+              "clock": "9:20",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 17,
+              "wall_clock": "2015-02-01T23:44:27+00:00",
+              "start_situation": {
+                "clock": "9:20",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 32
+                }
+              },
+              "end_situation": {
+                "clock": "8:41",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "description": "(9:20) (Shotgun) 12-T.Brady pass short left to 34-S.Vereen to NE 35 for 3 yards (94-K.Williams).",
+              "alt_description": "(9:20) (Shotgun) T.Brady pass short left to S.Vereen to NE 35 for 3 yards (K.Williams).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 3,
+                  "att_yards": -5,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 3,
+                  "yards_after_catch": 8,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Shane Vereen",
+                    "jersey": "34",
+                    "reference": "00-0027994",
+                    "id": "600ae879-d95a-4ac4-ae4e-72c05a05f1ad",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Kevin Williams",
+                    "jersey": "94",
+                    "reference": "00-0022073",
+                    "id": "af04638a-2440-4fd7-b48d-9deaa2a3ab46",
+                    "position": "DT"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "c79ceab9-f822-41f3-a5a7-4570e88f9799",
+              "sequence": 393.0,
+              "reference": "393",
+              "clock": "8:41",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:45:06+00:00",
+              "start_situation": {
+                "clock": "8:41",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 35
+                }
+              },
+              "end_situation": {
+                "clock": "8:04",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 46
+                }
+              },
+              "description": "(8:41) 12-T.Brady pass short left to 11-J.Edelman pushed ob at NE 46 for 11 yards (41-B.Maxwell).",
+              "alt_description": "(8:41) T.Brady pass short left to J.Edelman pushed ob at NE 46 for 11 yards (B.Maxwell).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 11,
+                  "att_yards": 9,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "firstdown": 1,
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 11,
+                  "yards_after_catch": 2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Julian Edelman",
+                    "jersey": "11",
+                    "reference": "00-0027150",
+                    "id": "2bb70d56-a79a-4fa1-ae37-99858a3ffd55",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Byron Maxwell",
+                    "jersey": "41",
+                    "reference": "00-0028111",
+                    "id": "fc309bb0-d8f9-49a8-b2d3-5c6eea4dec24",
+                    "position": "CB"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "pass",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "1b5cfd96-2a85-45bf-85db-2d8faba8e414",
+              "sequence": 417.0,
+              "reference": "417",
+              "clock": "8:04",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "wall_clock": "2015-02-01T23:45:51+00:00",
+              "start_situation": {
+                "clock": "8:04",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a",
+                  "yardline": 46
+                }
+              },
+              "end_situation": {
+                "clock": "7:23",
+                "down": 2,
+                "yfd": 4,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 48
+                }
+              },
+              "description": "(8:04) 71-C.Fleming has reported as eligible. 29-L.Blount up the middle to SEA 48 for 6 yards (54-B.Wagner, 25-R.Sherman).",
+              "alt_description": "(8:04) 71-C.Fleming has reported as eligible. L.Blount up the middle to SEA 48 for 6 yards (B.Wagner, R.Sherman).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 6,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Richard Sherman",
+                    "jersey": "25",
+                    "reference": "00-0028092",
+                    "id": "29ac0dbd-2d1c-40da-88ba-36f0d3856d05",
+                    "position": "CB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Bobby Wagner",
+                    "jersey": "54",
+                    "reference": "00-0029255",
+                    "id": "706bc0ab-7200-47e9-9b09-726110eb83dc",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "84ab492b-214c-4f59-b903-5cbc9ed3690b",
+              "sequence": 442.0,
+              "reference": "442",
+              "clock": "7:23",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:46:32+00:00",
+              "start_situation": {
+                "clock": "7:23",
+                "down": 2,
+                "yfd": 4,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 48
+                }
+              },
+              "end_situation": {
+                "clock": "6:44",
+                "down": 3,
+                "yfd": 3,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 47
+                }
+              },
+              "description": "(7:23) 29-L.Blount right tackle to SEA 47 for 1 yard (99-T.McDaniel, 54-B.Wagner).",
+              "alt_description": "(7:23) L.Blount right tackle to SEA 47 for 1 yard (T.McDaniel, B.Wagner).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Tony McDaniel",
+                    "jersey": "99",
+                    "reference": "00-0024102",
+                    "id": "2f1ff269-5556-4180-a46d-726c8491ae39",
+                    "position": "DT"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Bobby Wagner",
+                    "jersey": "54",
+                    "reference": "00-0029255",
+                    "id": "706bc0ab-7200-47e9-9b09-726110eb83dc",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "9679abf0-a7a2-4ac3-950c-abbc2cd958ff",
+              "sequence": 463.0,
+              "reference": "463",
+              "clock": "6:44",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:47:10+00:00",
+              "start_situation": {
+                "clock": "6:44",
+                "down": 3,
+                "yfd": 3,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 47
+                }
+              },
+              "end_situation": {
+                "clock": "6:07",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 43
+                }
+              },
+              "description": "(6:44) (Shotgun) 12-T.Brady pass short right to 87-R.Gronkowski to SEA 43 for 4 yards (31-K.Chancellor). SEA-95-D.Dobbs was injured during the play.",
+              "alt_description": "(6:44) (Shotgun) T.Brady pass short right to R.Gronkowski to SEA 43 for 4 yards (K.Chancellor). SEA-D.Dobbs was injured during the play.",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 4,
+                  "att_yards": -1,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "firstdown": 1,
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 4,
+                  "yards_after_catch": 5,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Rob Gronkowski",
+                    "jersey": "87",
+                    "reference": "00-0027656",
+                    "id": "2142a164-48ad-47d6-bb27-0bc58c6b2e62",
+                    "position": "TE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Kam Chancellor",
+                    "jersey": "31",
+                    "reference": "00-0027733",
+                    "id": "1f49b95a-97cb-426e-8bd0-aeeb4b5b0ad1",
+                    "position": "SS"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "pass",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "1ed28fa9-9266-4edb-8707-29cf95137df9",
+              "sequence": 487.0,
+              "reference": "487",
+              "clock": "6:07",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 11,
+              "wall_clock": "2015-02-01T23:48:03+00:00",
+              "start_situation": {
+                "clock": "6:07",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 43
+                }
+              },
+              "end_situation": {
+                "clock": "5:31",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 40
+                }
+              },
+              "description": "(6:07) (Shotgun) 12-T.Brady pass short left to 34-S.Vereen to SEA 40 for 3 yards (50-K.Wright).",
+              "alt_description": "(6:07) (Shotgun) T.Brady pass short left to S.Vereen to SEA 40 for 3 yards (K.Wright).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 3,
+                  "att_yards": -7,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 3,
+                  "yards_after_catch": 10,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Shane Vereen",
+                    "jersey": "34",
+                    "reference": "00-0027994",
+                    "id": "600ae879-d95a-4ac4-ae4e-72c05a05f1ad",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "K.J. Wright",
+                    "jersey": "50",
+                    "reference": "00-0028037",
+                    "id": "93ff0e6f-fee3-41d1-a913-6111cd9ebef1",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "fbbafa6f-f255-438e-b512-7cdb27aafd2b",
+              "sequence": 515.0,
+              "reference": "515",
+              "clock": "5:31",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 13,
+              "wall_clock": "2015-02-01T23:48:39+00:00",
+              "start_situation": {
+                "clock": "5:31",
+                "down": 2,
+                "yfd": 7,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 40
+                }
+              },
+              "end_situation": {
+                "clock": "4:52",
+                "down": 3,
+                "yfd": 1,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 34
+                }
+              },
+              "description": "(5:31) 71-C.Fleming has reported as eligible. 29-L.Blount up the middle to SEA 34 for 6 yards (50-K.Wright).",
+              "alt_description": "(5:31) 71-C.Fleming has reported as eligible. L.Blount up the middle to SEA 34 for 6 yards (K.Wright).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 6,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "K.J. Wright",
+                    "jersey": "50",
+                    "reference": "00-0028037",
+                    "id": "93ff0e6f-fee3-41d1-a913-6111cd9ebef1",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "8ec83987-0b90-41ce-99cc-be8cf1906c11",
+              "sequence": 540.0,
+              "reference": "540",
+              "clock": "4:52",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:49:18+00:00",
+              "start_situation": {
+                "clock": "4:52",
+                "down": 3,
+                "yfd": 1,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 34
+                }
+              },
+              "end_situation": {
+                "clock": "4:15",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 26
+                }
+              },
+              "description": "(4:52) 29-L.Blount right end to SEA 26 for 8 yards (29-E.Thomas).",
+              "alt_description": "(4:52) L.Blount right end to SEA 26 for 8 yards (E.Thomas).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 8,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Earl Thomas",
+                    "jersey": "29",
+                    "reference": "00-0027866",
+                    "id": "4094730d-a3ad-4c7e-a899-a3c8001748d9",
+                    "position": "FS"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "rush",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "491d7470-791e-4950-9db8-5964153bddde",
+              "sequence": 561.0,
+              "reference": "561",
+              "clock": "4:15",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 11,
+              "wall_clock": "2015-02-01T23:49:55+00:00",
+              "start_situation": {
+                "clock": "4:15",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 26
+                }
+              },
+              "end_situation": {
+                "clock": "3:38",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "description": "(4:15) 29-L.Blount up the middle to SEA 24 for 2 yards (50-K.Wright).",
+              "alt_description": "(4:15) L.Blount up the middle to SEA 24 for 2 yards (K.Wright).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "K.J. Wright",
+                    "jersey": "50",
+                    "reference": "00-0028037",
+                    "id": "93ff0e6f-fee3-41d1-a913-6111cd9ebef1",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "a4da004a-d98e-4a6a-982d-5d26e2475965",
+              "sequence": 582.0,
+              "reference": "582",
+              "clock": "3:38",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:50:32+00:00",
+              "start_situation": {
+                "clock": "3:38",
+                "down": 2,
+                "yfd": 8,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 24
+                }
+              },
+              "end_situation": {
+                "clock": "3:07",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 14
+                }
+              },
+              "description": "(3:38) (Shotgun) 12-T.Brady pass short left to 80-D.Amendola pushed ob at SEA 14 for 10 yards (41-B.Maxwell).",
+              "alt_description": "(3:38) (Shotgun) T.Brady pass short left to D.Amendola pushed ob at SEA 14 for 10 yards (B.Maxwell).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 10,
+                  "att_yards": 3,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "firstdown": 1,
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 10,
+                  "yards_after_catch": 7,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Danny Amendola",
+                    "jersey": "80",
+                    "reference": "00-0026035",
+                    "id": "973bfe3c-6d0d-4130-a79c-f860650b1da6",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Byron Maxwell",
+                    "jersey": "41",
+                    "reference": "00-0028111",
+                    "id": "fc309bb0-d8f9-49a8-b2d3-5c6eea4dec24",
+                    "position": "CB"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "pass",
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "e97fbdc5-922c-4ab0-9a51-0d74d450b27e",
+              "sequence": 606.0,
+              "reference": "606",
+              "clock": "3:07",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:51:12+00:00",
+              "start_situation": {
+                "clock": "3:07",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 14
+                }
+              },
+              "end_situation": {
+                "clock": "2:29",
+                "down": 2,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 10
+                }
+              },
+              "description": "(3:07) (Shotgun) 12-T.Brady pass short right to 47-M.Hoomanawanui to SEA 10 for 4 yards (31-K.Chancellor).",
+              "alt_description": "(3:07) (Shotgun) T.Brady pass short right to M.Hoomanawanui to SEA 10 for 4 yards (K.Chancellor).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "complete": 1,
+                  "yards": 4,
+                  "att_yards": 4,
+                  "inside_20": 1,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "reception": 1,
+                  "yards": 4,
+                  "yards_after_catch": 0,
+                  "inside_20": 1,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Michael Hoomanawanui",
+                    "jersey": "47",
+                    "reference": "00-0027732",
+                    "id": "add7a245-2444-491f-bdfb-b1b0d76f6a28",
+                    "position": "TE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Kam Chancellor",
+                    "jersey": "31",
+                    "reference": "00-0027733",
+                    "id": "1f49b95a-97cb-426e-8bd0-aeeb4b5b0ad1",
+                    "position": "SS"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "f516e9ac-deab-4a87-a55b-a1edfe8be65a",
+              "sequence": 630.0,
+              "reference": "630",
+              "clock": "2:29",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 11,
+              "wall_clock": "2015-02-01T23:51:50+00:00",
+              "start_situation": {
+                "clock": "2:29",
+                "down": 2,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 10
+                }
+              },
+              "end_situation": {
+                "clock": "1:50",
+                "down": 3,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 10
+                }
+              },
+              "description": "(2:29) (Shotgun) 29-L.Blount up the middle to SEA 10 for no gain (72-M.Bennett, 56-C.Avril).",
+              "alt_description": "(2:29) (Shotgun) L.Blount up the middle to SEA 10 for no gain (M.Bennett, C.Avril).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 0,
+                  "inside_20": 1,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "LeGarrette Blount",
+                    "jersey": "29",
+                    "reference": "00-0027325",
+                    "id": "f5d20030-d934-45e3-8282-e34c6c83ad84",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Cliff Avril",
+                    "jersey": "56",
+                    "reference": "00-0026232",
+                    "id": "d631b4a7-1ce6-4355-9cce-e61cb175c78c",
+                    "position": "DE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "ast_tackle": 1,
+                  "primary": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Michael Bennett",
+                    "jersey": "72",
+                    "reference": "00-0026618",
+                    "id": "485369eb-3586-4aa2-9628-77d954f23da3",
+                    "position": "DE"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "ff05a3bc-ac7e-475c-83f6-a0f4014a9d3a",
+              "sequence": 651.0,
+              "reference": "651",
+              "clock": "1:50",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "play_clock": 10,
+              "wall_clock": "2015-02-01T23:52:29+00:00",
+              "start_situation": {
+                "clock": "1:50",
+                "down": 3,
+                "yfd": 6,
+                "possession": {
+                  "name": "Patriots",
+                  "market": "New England",
+                  "alias": "NE",
+                  "reference": "4925",
+                  "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 10
+                }
+              },
+              "end_situation": {
+                "clock": "1:39",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 14
+                }
+              },
+              "description": "(1:50) (Shotgun) 12-T.Brady pass short left intended for 11-J.Edelman INTERCEPTED by 20-J.Lane [72-M.Bennett] at SEA 0. 20-J.Lane pushed ob at SEA 14 for 14 yards (11-J.Edelman). SEA-20-J.Lane was injured during the play. His return is Doubtful.",
+              "alt_description": "(1:50) (Shotgun) T.Brady pass short left intended for J.Edelman INTERCEPTED by J.Lane [M.Bennett] at SEA 0. J.Lane pushed ob at SEA 14 for 14 yards (J.Edelman). SEA-J.Lane was injured during the play. His return is Doubtful.",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "attempt": 1,
+                  "att_yards": 10,
+                  "interception": 1,
+                  "inside_20": 1,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Tom Brady",
+                    "jersey": "12",
+                    "reference": "00-0019596",
+                    "id": "41c44740-d0f6-44ab-8347-3b5d515e5ecf",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "receive",
+                  "target": 1,
+                  "inside_20": 1,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Julian Edelman",
+                    "jersey": "11",
+                    "reference": "00-0027150",
+                    "id": "2bb70d56-a79a-4fa1-ae37-99858a3ffd55",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "qb_hit": 1,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Michael Bennett",
+                    "jersey": "72",
+                    "reference": "00-0026618",
+                    "id": "485369eb-3586-4aa2-9628-77d954f23da3",
+                    "position": "DE"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Julian Edelman",
+                    "jersey": "11",
+                    "reference": "00-0027150",
+                    "id": "2bb70d56-a79a-4fa1-ae37-99858a3ffd55",
+                    "position": "WR"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "pass_defended": 1,
+                  "interception": 1,
+                  "int_yards": 14,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Jeremy Lane",
+                    "jersey": "20",
+                    "reference": "00-0029295",
+                    "id": "88f23fe7-7bbe-4416-a98c-371d1f4d4f70",
+                    "position": "CB"
+                  }
+                },
+                {
+                  "stat_type": "down_conversion",
+                  "down": 3,
+                  "attempt": 1,
+                  "complete": 0,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "event",
+          "id": "943484ad-cbc0-4b82-bf86-6409982bfe1f",
+          "sequence": 683.0,
+          "reference": "683",
+          "clock": "1:39",
+          "event_type": "timeout",
+          "wall_clock": "2015-02-01T23:53:38+00:00",
+          "description": "Timeout at 01:39.",
+          "alt_description": "Timeout at 01:39."
+        },
+        {
+          "type": "drive",
+          "id": "5921601c-27d1-4077-aaaa-614a4322abb7",
+          "sequence": 4,
+          "start_reason": "Interception",
+          "end_reason": "Punt",
+          "play_count": 5,
+          "duration": "2:42",
+          "first_downs": 1,
+          "gain": 12,
+          "penalty_yards": 0,
+          "events": [
+            {
+              "type": "play",
+              "id": "07689236-9ee8-4ce8-b008-ea6b5c5d2b09",
+              "sequence": 700.0,
+              "reference": "700",
+              "clock": "1:39",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 14,
+              "wall_clock": "2015-02-01T23:55:57+00:00",
+              "start_situation": {
+                "clock": "1:39",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 14
+                }
+              },
+              "end_situation": {
+                "clock": "00:59",
+                "down": 2,
+                "yfd": 3,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 21
+                }
+              },
+              "description": "(1:39) 3-R.Wilson scrambles right end to SEA 21 for 7 yards (91-J.Collins).",
+              "alt_description": "(1:39) R.Wilson scrambles right end to SEA 21 for 7 yards (J.Collins).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 7,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Russell Wilson",
+                    "jersey": "03",
+                    "reference": "00-0029263",
+                    "id": "409d4cac-ee90-4470-9710-ebe671678339",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Jamie Collins",
+                    "jersey": "91",
+                    "reference": "00-0030421",
+                    "id": "ca760cb5-83dd-4415-acc8-ef8b508ba976",
+                    "position": "LB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "6f188a16-652b-47ff-931d-09fb1776e198",
+              "sequence": 725.0,
+              "reference": "725",
+              "clock": "00:59",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "rush",
+              "play_clock": 11,
+              "wall_clock": "2015-02-01T23:56:37+00:00",
+              "start_situation": {
+                "clock": "00:59",
+                "down": 2,
+                "yfd": 3,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 21
+                }
+              },
+              "end_situation": {
+                "clock": "00:16",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 25
+                }
+              },
+              "description": "(:59) 24-M.Lynch left end to SEA 25 for 4 yards (91-J.Collins).",
+              "alt_description": "(:59) M.Lynch left end to SEA 25 for 4 yards (J.Collins).",
+              "statistics": [
+                {
+                  "stat_type": "rush",
+                  "attempt": 1,
+                  "yards": 4,
+                  "firstdown": 1,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Marshawn Lynch",
+                    "jersey": "24",
+                    "reference": "00-0025399",
+                    "id": "82bce0be-9a87-4b6d-a85b-623bf8d1674e",
+                    "position": "RB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Jamie Collins",
+                    "jersey": "91",
+                    "reference": "00-0030421",
+                    "id": "ca760cb5-83dd-4415-acc8-ef8b508ba976",
+                    "position": "LB"
+                  }
+                },
+                {
+                  "stat_type": "first_down",
+                  "category": "rush",
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "play",
+              "id": "673d70f7-5760-4b60-8f34-0e9592ac630a",
+              "sequence": 746.0,
+              "reference": "746",
+              "clock": "00:16",
+              "home_points": 0,
+              "away_points": 0,
+              "play_type": "pass",
+              "wall_clock": "2015-02-01T23:57:20+00:00",
+              "start_situation": {
+                "clock": "00:16",
+                "down": 1,
+                "yfd": 10,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 25
+                }
+              },
+              "end_situation": {
+                "clock": "15:00",
+                "down": 2,
+                "yfd": 12,
+                "possession": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                },
+                "location": {
+                  "name": "Seahawks",
+                  "market": "Seattle",
+                  "alias": "SEA",
+                  "reference": "4934",
+                  "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8",
+                  "yardline": 23
+                }
+              },
+              "description": "(:16) (Shotgun) 3-R.Wilson sacked at SEA 23 for -2 yards (24-D.Revis).",
+              "alt_description": "(:16) (Shotgun) R.Wilson sacked at SEA 23 for -2 yards (D.Revis).",
+              "statistics": [
+                {
+                  "stat_type": "pass",
+                  "sack": 1,
+                  "sack_yards": -2,
+                  "inside_20": 0,
+                  "goaltogo": 0,
+                  "team": {
+                    "name": "Seahawks",
+                    "market": "Seattle",
+                    "alias": "SEA",
+                    "reference": "4934",
+                    "id": "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
+                  },
+                  "player": {
+                    "name": "Russell Wilson",
+                    "jersey": "03",
+                    "reference": "00-0029263",
+                    "id": "409d4cac-ee90-4470-9710-ebe671678339",
+                    "position": "QB"
+                  }
+                },
+                {
+                  "stat_type": "defense",
+                  "tackle": 1,
+                  "sack": 1,
+                  "sack_yards": -2,
+                  "qb_hit": 1,
+                  "tlost": 1,
+                  "tlost_yards": 2,
+                  "team": {
+                    "name": "Patriots",
+                    "market": "New England",
+                    "alias": "NE",
+                    "reference": "4925",
+                    "id": "97354895-8c77-4fd4-a860-32e62ea7382a"
+                  },
+                  "player": {
+                    "name": "Darrelle Revis",
+                    "jersey": "24",
+                    "reference": "00-0025401",
+                    "id": "2979c3a5-0e4e-489e-82d7-d208e48b828b",
+                    "position": "CB"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "event",
+              "id": "c2b1d618-00df-4b23-8e96-c5a96bf17fc7",
+              "sequence": 769.0,
+              "reference": "769",
+              "clock": "00:00",
+              "event_type": "period_end",
+              "description": "END QUARTER 1",
+              "alt_description": "END QUARTER 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

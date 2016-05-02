@@ -1,0 +1,35 @@
+{
+  "name": "sports-radar-practicum",
+  "version": "1.0.0",
+  "description": "Contains the practicum given to Matthew Meyers for his interview process at Sports Radar in Minneapolis, MN.",
+  "main": "runner.js",
+  "dependencies": {
+    "console.table": "^0.4.0",
+    "jsdoc": "^3.4.0",
+    "qunit": "^0.9.1"
+  },
+  "devDependencies": {
+    "qunit": "^0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marinatedpork/Sports-Radar-Practicum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marinatedpork/Sports-Radar-Practicum/issues"
+  },
+  "keywords": [
+    "sports",
+    "nfl",
+    "statistics",
+    "rushing"
+  ],
+  "scripts": {
+    "sports-radar": "node runner.js",
+    "test": "node tests/test-runner.js",
+    "docs": "jsdoc lib/ -r"
+  },
+  "private": true,
+  "author": "Matthew Meyers",
+  "license": "MIT"
+}
