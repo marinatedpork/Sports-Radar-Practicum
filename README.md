@@ -2,7 +2,7 @@
 ---
 This repository contains source code and tests necessary for completing the Sports Radar Practicum located [here](https://github.com/sportradarus/super-bowl-rushing-leaders). Modules for completing the practicum may be found in the `lib/` directory.
 
-My approach in completing this exercise creating an object oriented design with functional, stateless solutions.
+My approach in completing this exercise was to create an object oriented design with functional, stateless solutions.
 
 To run the program:
 
