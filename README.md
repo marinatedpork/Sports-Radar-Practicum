@@ -23,7 +23,4 @@ To do:
 + Abstract the Rushes function to handle different play types
 + Create templating for documentation
 
-Thank you for checking out the repository. I love ripping into giant data objects.
-
-Talk to you soon,
-Matt
+Thank you for checking out the repository.
